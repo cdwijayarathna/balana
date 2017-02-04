@@ -118,6 +118,7 @@ public class MatchResult {
      * @param result the applicable result
      */
     public MatchResult(int result) {
+        System.out.println("-----");
         this(result, null);
     }
 
